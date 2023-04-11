@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>SOV1</title> 
+        <style>
+            center{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h3><font color="pink">Unos novog parfema</h3>
+        <form action="http://localhost:8080/dodaj">
+            <table>
+                <tr>
+                    <td>Id:</td>
+                    <td><input type="number" name="id"></td>
+                </tr>
+                <tr>
+                    <td>Naziv:</td>
+                    <td><input type="text" name="naziv"></td>
+                </tr>
+                <tr>
+                    <td>Mirisna nota:</td>
+                    <td>
+                        <select name="nota">
+                            <option value="orijentalna">Orijentalna</option>
+                            <option value="citrusna">Citrusna</option>
+                            <option value="Mosus">Mosus</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cena:</td>
+                    <td><input type="number" name="cena"></td>
+                </tr>
+                <tr>
+                    <td>Na akciji?</td>
+                    <td><input type="checkbox" name="akcija"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Dodaj"></td>
+                </tr>
+            </table>
+        </form>
+
+
+        <h3><font color="pink">Pretraga</font></h3>
+        <form action="http://localhost:8080/find">
+            <table>
+                <tr>
+                    <td>Cena:</td>
+                    <td><input type="number" name="cena"></td>
+                    <td><input type="submit" value="Pretrazi"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
