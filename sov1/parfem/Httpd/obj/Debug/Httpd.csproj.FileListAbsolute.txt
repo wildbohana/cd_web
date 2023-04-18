@@ -1,0 +1,23 @@
+C:\Users\Lidija\Desktop\Faks\Web\New folder\Materijali za SOV1\Materijali za SOV1\Httpd\Httpd\bin\Debug\Httpd.exe.config
+C:\Users\Lidija\Desktop\Faks\Web\New folder\Materijali za SOV1\Materijali za SOV1\Httpd\Httpd\bin\Debug\Httpd.exe
+C:\Users\Lidija\Desktop\Faks\Web\New folder\Materijali za SOV1\Materijali za SOV1\Httpd\Httpd\bin\Debug\Httpd.pdb
+C:\Users\Lidija\Desktop\Faks\Web\New folder\Materijali za SOV1\Materijali za SOV1\Httpd\Httpd\obj\Debug\Httpd.csproj.AssemblyReference.cache
+C:\Users\Lidija\Desktop\Faks\Web\New folder\Materijali za SOV1\Materijali za SOV1\Httpd\Httpd\obj\Debug\Httpd.csproj.CoreCompileInputs.cache
+C:\Users\Lidija\Desktop\Faks\Web\New folder\Materijali za SOV1\Materijali za SOV1\Httpd\Httpd\obj\Debug\Httpd.exe
+C:\Users\Lidija\Desktop\Faks\Web\New folder\Materijali za SOV1\Materijali za SOV1\Httpd\Httpd\obj\Debug\Httpd.pdb
+C:\Users\wildbohana\Desktop\Httpd\Httpd\bin\Debug\Httpd.exe.config
+C:\Users\wildbohana\Desktop\Httpd\Httpd\bin\Debug\Httpd.exe
+C:\Users\wildbohana\Desktop\Httpd\Httpd\bin\Debug\Httpd.pdb
+C:\Users\wildbohana\Desktop\Httpd\Httpd\obj\Debug\Httpd.csproj.AssemblyReference.cache
+C:\Users\wildbohana\Desktop\Httpd\Httpd\obj\Debug\Httpd.csproj.SuggestedBindingRedirects.cache
+C:\Users\wildbohana\Desktop\Httpd\Httpd\obj\Debug\Httpd.csproj.CoreCompileInputs.cache
+C:\Users\wildbohana\Desktop\Httpd\Httpd\obj\Debug\Httpd.exe
+C:\Users\wildbohana\Desktop\Httpd\Httpd\obj\Debug\Httpd.pdb
+C:\Users\wildb\Desktop\web\Httpd\Httpd\bin\Debug\Httpd.exe.config
+C:\Users\wildb\Desktop\web\Httpd\Httpd\bin\Debug\Httpd.exe
+C:\Users\wildb\Desktop\web\Httpd\Httpd\bin\Debug\Httpd.pdb
+C:\Users\wildb\Desktop\web\Httpd\Httpd\obj\Debug\Httpd.csproj.AssemblyReference.cache
+C:\Users\wildb\Desktop\web\Httpd\Httpd\obj\Debug\Httpd.csproj.SuggestedBindingRedirects.cache
+C:\Users\wildb\Desktop\web\Httpd\Httpd\obj\Debug\Httpd.csproj.CoreCompileInputs.cache
+C:\Users\wildb\Desktop\web\Httpd\Httpd\obj\Debug\Httpd.exe
+C:\Users\wildb\Desktop\web\Httpd\Httpd\obj\Debug\Httpd.pdb

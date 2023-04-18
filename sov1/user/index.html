@@ -1,26 +1,31 @@
 ﻿<html>
-<head>
-    <title>User management</title>
-</head>
-<body>
-    <h3>Insert new user:</h3>
-    <form accept-charset="UTF-8" action="http://localhost:8080/add">
-        Username: <input type="text" name="username" /> <br/>
-        Ime: <input type="text" name="name" /> <br/>
-        Lastname: <input type="text" name="lastname" /> <br/>
-        <input type="submit" value="send" />
-    </form>
+	<head>
+		<title>Kontrola korisnika</title>
+	</head>
+	
+	<body>
+		<h3>Dodaj novog korisnika:</h3>
+		<form accept-charset="UTF-8" action="http://localhost:8080/add">
+			Username: <input type="text" name="username" /> <br/>
+			Ime: <input type="text" name="name" /> <br/>
+			Prezime: <input type="text" name="lastname" /> <br/>
+			<input type="submit" value="send" />
+		</form>
 
-    <h3>Find user:</h3>
-    <form accept-charset="UTF-8" action="http://localhost:8080/find">
-        Username: <input type="text" name="username" />
-        <input type="submit" value="send" />
-    </form>
+		<br/>
 
-    <h3>Delete user:</h3>
-    <form accept-charset="UTF-8" action="http://localhost:8080/delete">
-        Username: <input type="text" name="username" />
-        <input type="submit" value="send" />
-    </form>
-</body>
+		<h3>Pronadji korisnika:</h3>
+		<form accept-charset="UTF-8" action="http://localhost:8080/find">
+			Username: <input type="text" name="username" />
+			<input type="submit" value="send" />
+		</form>
+
+		<br/>
+
+		<h3>Izbrisi korisnika:</h3>
+		<form accept-charset="UTF-8" action="http://localhost:8080/delete">
+			Username: <input type="text" name="username" />
+			<input type="submit" value="send" />
+		</form>
+	</body>
 </html>

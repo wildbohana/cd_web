@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1>
+			<font color="red" size="6" weight="bold">Unos novog kluba</font>
+		</h1>
+		<form name="dodaj" action="http://localhost:8081/dodaj">
+			<table>
+				<tr>
+					<td>Naziv</td>
+					<td><input type="text" name="naziv" /></td>
+				</tr>
+				<tr>
+					<td>Grad</td>
+					<td>
+						<select name="grad">
+							<option value="Novi Sad">Novi Sad</option>
+							<option value="Backa Palanka">Backa Palanka</option>
+							<option value="Beograd">Beograd</option>
+							<option value="Nis">Nis</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Aktivan</td>
+					<td><input type="checkbox" name="aktivan" /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value=" Posalji "/></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\bin\Debug\Httpd.exe.config
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\bin\Debug\Httpd.exe
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\bin\Debug\Httpd.pdb
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\obj\Debug\Httpd.csproj.AssemblyReference.cache
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\obj\Debug\Httpd.csproj.SuggestedBindingRedirects.cache
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\obj\Debug\Httpd.csproj.CoreCompileInputs.cache
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\obj\Debug\Httpd.exe
+C:\Users\wildbohana\Desktop\web\v04\z1\Httpd\obj\Debug\Httpd.pdb
