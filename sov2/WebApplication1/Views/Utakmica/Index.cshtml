@@ -1,0 +1,56 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+    </head>
+
+    <body>
+        <div>
+            <!-- Dodavanje nove utakmice -->
+            <form method="post" action="~/Utakmica/Add">
+                ID:<br/>
+                <input type="number" name="ID" required/><br/>
+                
+                GOST:<br/>
+                <input type="text" name="Gost" required/><br/>
+                
+                DOMACIN:<br/>
+                <input type="text" name="Domacin" required/><br/>
+                
+                POBEDNIK:<br/>
+                <select name="Pobednik">
+                    <option value="Gost" selected>Gost</option>
+                    <option value="Domacin">Domacin</option>
+                </select><br/>
+                
+                LIGA:<br/>
+                <select name="Liga">
+                    <option value="Prva" selected>Prva</option>
+                    <option value="Druga">Druga</option>
+                    <option value="Treca">Treca</option>
+                </select><br /><br />
+                
+                <input type="submit" value="Dodaj"/>
+            </form>
+
+            <br/><br/>
+            
+            <!-- Pretraga utakmica -->
+            <form method="get" action="~/Utakmica/Filter">
+                LIGA:<br/>
+                <select name="Liga">
+                    <option value="Prva" selected>Prva</option>
+                    <option value="Druga">Druga</option>
+                    <option value="Treca">Treca</option>
+                </select><br/><br/>
+
+                <input type="submit" value="Pretrazi"/>
+            </form>
+        </div>
+    </body>
+</html>

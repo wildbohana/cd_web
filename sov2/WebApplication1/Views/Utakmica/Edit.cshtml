@@ -1,0 +1,45 @@
+﻿@using WebApplication1.Models
+@{
+    Layout = null;
+}
+
+@model Utakmica
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Edit</title>
+    </head>
+
+    <body>
+        <div>
+            <form method="post" action="~/Utakmica/Update">
+                <!-- Pri Editu se ne menja ID utakmice! -->
+                <input type="hidden" name="ID" value="@Model.ID"/>
+                
+                GOST:<br/>
+                <input type="text" name="Gost" required value="@Model.Gost"/><br/>
+                
+                DOMACIN:<br/>
+                <input type="text" name="Domacin" required value="@Model.Domacin"/><br/>
+                
+                POBEDNIK:<br/>
+                <select name="Pobednik">
+                    <option value="Gost" selected>Gost</option>
+                    <option value="Domacin">Domacin</option>
+                </select><br/>
+                
+                LIGA:<br/>
+                <select name="Liga">
+                    <option value="Prva" selected>Prva</option>
+                    <option value="Druga">Druga</option>
+                    <option value="Treca">Treca</option>
+                </select><br/><br/>
+
+                <input type="submit" value="Izmeni" />
+            </form>
+            <br/><br/>
+        </div>
+    </body>
+</html>

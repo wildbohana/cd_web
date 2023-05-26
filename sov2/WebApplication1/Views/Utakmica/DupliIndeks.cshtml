@@ -1,0 +1,23 @@
+﻿@using WebApplication1.Models
+@{
+    Layout = null;
+}
+
+@model Utakmica
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>DupliIndeks</title>
+    </head>
+    <body>
+        <div> 
+            <h1 style="color:red">Ne mozete dodati utakmicu, vec postoji utakmica sa unetim ID-em!</h1>
+            <p>Utakmica sa tim ID je:</p>
+            <p>@Model.Domacin - @Model.Gost</p>
+            <p>Pobednik: @Model.Pobednik</p>
+            <a href="~/Utakmica/Index">Nazad</a>
+        </div>
+    </body>
+</html>

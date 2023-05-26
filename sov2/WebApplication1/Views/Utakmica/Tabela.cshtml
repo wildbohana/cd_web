@@ -1,0 +1,71 @@
+﻿@using WebApplication1.Models
+@{
+    Layout = null;
+}
+
+@model IEnumerable<Utakmica>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Tabela</title>
+        <style>
+            table, th, tr, td 
+            {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <!-- Ako šaljemo nešto preko ViewBag-a, pristupamo tome preko Model -->
+            @if (Model.Count() > 0)
+            {
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>LIGA</th>
+                        <th>DOMACIN</th>
+                        <th>GOST</th>
+                        <th>POBEDNIK</th>
+                        <th></th>
+                    </tr>
+                    @foreach (var x in Model)
+                    {
+                        <tr>
+                            <td>@x.ID</td>
+                            <td>@x.Liga</td>
+                            <td>@x.Domacin</td>
+                            <td>@x.Gost</td>
+                            <td>@x.Pobednik</td>
+                            <td><a href="~/Utakmica/Edit/@x.ID">Izmeni</a></td>
+                        </tr>
+                    }
+                </table>
+
+                <br/>
+
+                <!-- Opcija za brisanje utakmice (nalazi se ispod tabele) -->
+                <form method="get" action="~/Utakmica/Delete">
+                    <select name="id">
+                        @foreach (var x in Model)
+                        {
+                            <option value="@x.ID">@x.Domacin - @x.Gost</option>
+                        }
+                    </select>
+                    <input type="submit" value="Obrisi" />
+                </form>
+             }
+            else
+             {
+                <h1> Trenutno nema utakmica!</h1>
+             }
+
+            <a href="~/Utakmica/Index">Nazad</a>
+        </div>
+    </body>
+</html>
